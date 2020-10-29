@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Sistema de Pedidos</h3>
+  <img src="assets/imgs/tela-inicial.png" alt="logo" />
+
+  <form action="">
+    <ion-item>
+      <ion-label stacked> Email </ion-label>
+      <ion-input type="text" placeholder="exemplo@dominio.com.br"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked> Senha </ion-label>
+      <ion-input type="password" placeholder="Senha"></ion-input>
+    </ion-item>
+
+    <button ion-button block (click)="login()">Entrar</button>
+    <button ion-button block outline>Registrar</button>
+  </form>
+  <!--<div id="e">texte div</div>-->
+</ion-content>
